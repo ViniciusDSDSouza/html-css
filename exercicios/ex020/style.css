@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+  background-color: lightskyblue;
+}
+
+div > h1 {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+div#menu > p::before{
+ content: 'Menu ';
+}
+
+div > h1:hover {
+  background-color: orangered;
+}
+
+div > p {
+  font-size: 1em;
+  color: darkblue;
+  font-weight: bolder;
+  text-align: center;
+  display: none;
+}
+
+div:hover > p {
+  display: block;
+}
+
+div > p:hover {
+color: orangered;
+}

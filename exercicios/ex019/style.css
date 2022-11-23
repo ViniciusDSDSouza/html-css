@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+ background-color: rgba(135, 206, 250, 0.58);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+  text-align: right;
+}
+
+h1#principal {
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  font-family: 'handwrite';
+}
+
+h2 {
+  font-size: 1em;
+color: rgb(120, 120, 255);
+}
+
+p {
+text-align:justify;
+}
+
+.basico {
+  color: green;
+}
+
+.intermediario {
+  color: yellow;
+}
+
+.avancado {
+  color:red;
+}
+
+.html {
+ font-style: italic;
+ color: rgb(215, 130, 18);
+}
+
+.css {
+  font-style: italic;
+  color: white
+}
