@@ -54,7 +54,7 @@ header p {
   font-size: 1.2em;
   padding: 0px 40px;
   text-shadow: 3px 3px 5px #000000;
-  margin: 40px 0px;
+  padding: 40px 0px;
 }
 
 nav {
