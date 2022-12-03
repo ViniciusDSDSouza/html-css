@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sricacha', cursive
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 75px;
+}
+
+header h1 {
+    font-size: 10vh;
+    margin-bottom: 20px;
+    font-family: var(--fonte2)
+}
+
+p {
+    line-height: 2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
+
+section#normal {
+    background-color: white;
+    color: black;
+}
+
+section#imagem {
+    background-color: rgb(51,51,51);
+    color: white;
+    box-shadow: inset 1px 3px 20px 0px rgba(0, 0, 0, 0.699);
+}
+
+section#imagem p {
+    background-color: rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.girassol {
+        background: black url(../img/background001.jpg)  right no-repeat fixed;
+        background-size: cover;
+}
+
+
+.livro {
+    background: black url(../img/background002.jpg)  right no-repeat fixed;
+    background-size: cover;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    font-size: .9em;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+}
