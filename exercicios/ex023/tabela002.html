@@ -5,8 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(119, 136, 153, 0.534);
+        }
+
+        h1 {
+            text-align: center;
+            padding: 15px ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        main {
+            background-color: white;
+            width: 1000px;
+            height: 500px;
+            margin: auto;
+            margin-top: 5px;
+            box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.589);
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        caption {
+            background-color: lightgray;
+            border: 2px solid black;
+            font-size: 1.5em;
+            padding: 12px;
+        }
+
+        th {
+            padding: 12px;
+            border: 1px solid black;
+            background-color: gray;
+            color: white;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+
+        .mudanca {
+            color: green;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <main>
+        <h1>Uso de Tabelas Grandes</h1>
+        <table>
+            <caption>População Das Unidades Federativas Do Brasil</caption>
+             <thead>
+                <tr>
+                    <th scope="col">Posição</th>
+                    <th scope="col">Unidade Federativa</th>
+                    <th scope="col">População <br>(2010)</th>
+                    <th scope="col">População <br>(2021)</th>
+                    <th scope="col">Mudança</th>
+                    <th scope="col">% da Pop. Total</th>
+                    <th scope="col">País Comparável (Habitantes)</th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/São_Paulo_(estado)" target="_blank">São Paulo</a></td>
+                    <td>41 262 199</td>
+                    <td>46 649 132</td>
+                    <td class="mudanca">+13.05%</td>
+                    <td>21,9%</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Espanha" target="_blank">Espanha</a><br> (46 439 864)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Minas_Gerais" target="_blank">Minas Gerais</a></td>
+                    <td>19 597 330</td>
+                    <td>21 411 923</td>
+                    <td class="mudanca">+9.26%</td>
+                    <td>10,1%</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Sri_Lanka" target="_blank">Sri Lanka</a> <br>(20  675 000)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)" target="_blank">Rio de Janeiro</a></td>
+                    <td>15 989 929</td>
+                    <td>17 463 349</td>
+                    <td class="mudanca">+9.21%</td>
+                    <td>8,2%</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Síria" target="_blank">Síria</a><br>(17 500 658)</td>
+                </tr>
+             </tbody>
+             <tfoot>
+             </tfoot>
+        </table>
+    </main>
 </body>
 </html>
