@@ -5,7 +5,7 @@
 
 body {
     font: normal 15pt Arial;
-    background-color: rgba(0, 100, 0, 0.726);
+    background-color: #025939;
 }
 
 header {
@@ -15,21 +15,21 @@ header {
 
 h1 {
     padding: 8px;
-    background-color: rgba(0, 0, 0, 0.774);
     font-style:italic;
-    color:bisque
+    color: #F2E3D5;
 }
 
 section {
     margin: auto;
     margin-top: 15px;
     text-align: center;
-    background-color: white;
+    background-color: #027333;
     max-width: 900px;
     height: 350px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
-    color: darkgreen;
+    color: white;
+    text-shadow: 4.5px 0px 0px black;
 }
 
 p {
