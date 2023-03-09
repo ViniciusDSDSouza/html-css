@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: normal 15pt Arial;
+    background-color: rgba(0, 100, 0, 0.726);
+}
+
+header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+h1 {
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.774);
+    font-style:italic;
+    color:bisque
+}
+
+section {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+    max-width: 900px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+    color: darkgreen;
+}
+
+p {
+    padding: 8px;
+    font-size: 35px;
+}
+
+p#fim {
+    font-style: italic;
+    font-weight: bold;
+}
