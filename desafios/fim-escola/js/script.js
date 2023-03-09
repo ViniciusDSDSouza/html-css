@@ -37,4 +37,4 @@ function atualizarContagem() {
    contagemSegundos.innerHTML = `<p>Faltam <strong>${secFaltam}</strong> Segundos</p>`// Segundos
 
 }
-setInterval(atualizarContagem,1000)
+setInterval(atualizarContagem, 0)
